@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.button1{
+	color:#3F3823;
+	border: beige;
+	background: none;
+	border-radius: 13px;
+	font-size: 17px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.button1:hover{
+	color : antiquewhite;
+}
+
+.button2{
+	color:#3F3823;
+	border: beige;
+	background: #F3F3D8;
+	border-radius: 13px;
+	font-size: 16px;
+} 
+
+.button2:hover{
+	color:#FEF6ED;
+	border: #FFFFFF;
+	background:#58402C;
+}
+
+.webnav{
+	margin-top: 50px;
+    width: 350px;
+    float: left;
+    margin-left: 270px;
+	display: inline-block;
+	position: absolute;
+	right: 1%;
+	transition: 0.2s ease;
+    cursor: pointer;
+	color: beige;
+	
+}
+
+.title_text{
+    color:#986c4a;
+    font-size: 5.5em;
+    font-weight:600;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+
+.buttonheader{
+	
+	color: #8D7E65;
+	font:  oblique;
+	text-align: inherit;
+}
+
+.Imagecontent{
+	align-content: center;
+	padding:center;
+	max-width: 75%;
+	margin-left: 200px;
+}
+
+.Imagecontent:hover{
+	color: #E0D7BB;
+}
+
+.content{
+	display: flex;
+    padding-left: 3%;
+	background-size: 200%;
+}
+.footer{
+    background: #a17d60;
+    padding:1em;
+    color:white;
+}

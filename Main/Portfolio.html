@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PortfolioHTML</title>
+<link href="PortfolioCSS.css" rel="stylesheet" type="text/css">
+		<div style="display;block">
+  <div class= "icon" > 
+	<img src="Logo-removebg-preview.png" alt="Logo" width="290px" height="120px"> 
+		<div class="webnav" >
+			<div style="color:beige;" align="justify">
+		    	<a href="../Main/Index.html"><button class="button1">Home</button></a>
+			<a href="../Main/Aboutme.html"><button class="button2">About Me</button></a>
+			<a href="../Main/Portfolio.html"><button class="button2">Portfolio</button></a>
+			<a href="../Main/Contact.html"><button class="button2">Contact</button></a>
+		</div>
+	</div>	
+	</div>
+</div>
+</head>
+
+<body>
+	 <div class="title">
+		<div style="text-align: center">
+	 <span class="title_text"> PORTFOLIO </span> </div>
+	</div>
+	    
+	    <div style="padding: 1em;"></div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="01.png" alt="i1" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="02.png" alt="i2" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="03.png" alt="i3" style="width:100%">
+</div>
+	
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="04.png" alt="i4" style="width:100%">
+</div>
+	
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 3}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	
+		<div style="align-content: center;text-align: center;background: #AC967B;"> 
+        <span class="text1"> CONTENT </span> </div>
+			
+		<div style="padding: 2em;"></div>
+	
+	<div id="Imagecontent">
+			
+		<img src="p1.jpg" alt="img1" width="24.7%" height="20%"> 
+		<img src="p2.jpg" alt="img1" width="24.7%" height="20%"> 
+		<img src="p3.jpg" alt="img1" width="24.7%" height="20%"> 
+		<img src="p4.jpg" alt="img1" width="24.7%" height="20%"> 
+			</div> 
+	
+	
+	    <div style="padding: 2em;"></div>
+	    <div class="title">
+		<div style="align-content: center;text-align: center;background: #AC967B;"> 
+        <span class="text1"> VIDEO CONTENT </span> </div>
+		</div>
+			
+		<div style="padding: 2em;"></div>
+	
+	    <div style="margin-left: 5%;">
+	    <video width="23.8%" controls>
+        <source src="content.mp4" type="video/mp4">
+        <source src="content.mp4" type="video/ogg">
+        </video>
+	
+		<video width="23.8%" controls>
+        <source src="argania.mp4" type="video/mp4">
+        <source src="argania.mp4" type="video/ogg">
+        </video>
+	
+		<video width="23.8%" controls>
+        <source src="Pencarian bakat perantis.mp4" type="video/mp4">
+        <source src="Pencarian bakat perantis.mp4" type="video/ogg">
+        </video>
+	    
+	    <video width="23.8%" controls>
+        <source src="sepresi.mp4" type="video/mp4">
+        <source src="sepresi.mp4" type="video/ogg">
+        </video>
+	    </div>
+		
+	    <div style="padding: 2em;"></div>
+		
+		
+	    <div style="align-content: center;text-align: center;background: #D1B69F"> 
+			<span class="text1"> Poster </span> </div>
+				
+	    <div style="display: flex;">
+	    <img src="Adnan - Aesthetic blur.png" alt="img1" width="25%" height="20%"> 
+	    <img src="Adnan - Article.png" alt="img1" width="25%" height="20%"> 
+	    <img src="Adnan - Newspaper.png" alt="img1" width="25%" height="20%"> 
+	    <img src="Adnan - Aesthetic.png" alt="img1" width="25%" height="20%"> 
+	    </div>
+			
+	    <div id="Imagecontent2">
+	    <div style="display: flex;">
+	    <img src="adnan 1-01.png" alt="img1" width="50%" height="40%"> 
+	    <img src="Argania poster.jpeg" alt="img1" width="50.34%" height="40%"> </div>
+			
+							
+	    <div style="padding: 2em;"></div>
+	    </div>
+									
+			
+	    <div class="title">
+		<div style="align-content: center;text-align: center;background: #AC967B;"> 
+        <span class="text1"> ADOBE ILLUSTRATOR ART </span> </div>
+		</div>
+		
+		<div style="display: flex;">
+					
+		<img src="2nd picture.jpg" alt="img1" width="25%" height="20%"> 
+		<img src="khairul rugby-01.png" alt="img1" width="24.70%" height="20%"> 
+		<img src="1st picture.jpg" alt="img1" width="25%" height="20%"> 
+		<img src="khairul in beach.jpg" alt="img1" width="25%" height="20%"> 
+			</div>
+			
+			<div style="padding: 2em;"></div>
+			
+		<div class="title">
+		<div style="align-content: center;text-align: center;background: #705A37"> 
+        <span class="text1"> MAGAZINE DESIGNS </span> </div>
+		</div>
+			
+		<div style="display: flex;">
+					
+		<img src="magazine games-1.png" alt="img1" width="50%" height="40%"> 
+		<img src="magazine games-8.png" alt="img1" width="50%" height="40%"> </div>
+			
+		<div style="padding: 1em;"></div>
+			
+		<div style="display: flex;">
+		<img src="magazine games-4.png" alt="img1" width="50%" height="40%"> 
+		<img src="magazine games-5.png" alt="img1" width="50%" height="40%"> </div>
+			
+		<div style="padding: 1em;"></div>
+			
+		<div style="display: flex;">
+		<img src="magazine games-6.png" alt="img1" width="50%" height="40%"> 
+		<img src="magazine games-7.png" alt="img1" width="50%" height="40%"> </div>
+			
+		<div style="padding: 1em;"></div>
+			
+		<div style="display: flex;">
+		<img src="magazine games-2.png" alt="img1" width="50%" height="40%"> 
+		<img src="magazine games-3.png" alt="img1" width="50%" height="40%"> 
+		  </div>
+					
+		<div style="padding: 2em;"></div>
+	
+	            <div class="footer">
+            <div style="text-align: center;">
+                <span>CONTACT US</span>
+            </div>
+            <div>
+                <span>
+                    <p>
+                        No.5 Jalan Felcra Semungkis Batu 14,<br>
+                       
+                        43100, Hulu Langat, Selangor.
+                    </p>
+                    
+                    <p>
+                       <a href="mailto:nraziahbhr@gmail.com" >Nraziahbhr@gmail.com</a> 
+                    </p>
+                    <p>
+                        +01163842059
+                    </p>
+                </span>
+			<a href="https://www.instagram.com/nraziahbahri/">
+            <img src="../Main/instagram.png" alt="Instagram" style="width:43px;height:47px;">
+            </a>
+			<a href="https://www.facebook.com/aziah.bahri?fref=nf">
+            <img src="../Main/facebook.png" alt="facebook" style="width:55px;height:44px;">
+            </a>
+			<a href="https://wa.me/01163842059">
+            <img src="../Main/whatsapp.png" alt="whatsapp" style="width:42px;height:42px;">
+            </a>
+            <a href="https://twitter.com/aziahbhr">
+            <img src="../Main/twitter.png" alt="twitter" style="width:42px;height:43px;">
+            </a>
+            </div>
+	</div>
+</body>
+</html>
